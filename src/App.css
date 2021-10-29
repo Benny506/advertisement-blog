@@ -1,0 +1,60 @@
+.app {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.appContent{
+  display: flex;
+  grid-gap: 100px;
+  padding: 25px;
+}
+.headerContainer{
+  box-shadow: 1px 1px 3px rgba(1, 15, 35, 0.3);
+  margin-left: 25px;
+  padding: 10px;
+  cursor: grab;
+  transition: all 1s;
+}
+.headerContainer:hover{
+  transform: scale(1.1);
+}
+.headerText{
+  font-family: 'Kaufmann BT';
+  text-transform: capitalize;
+  font-size: 100px;
+  color: rgb(135, 160, 146);
+  transition: all 1s;
+}
+.headerText:hover{
+  font-family: 'Ink Free';
+  color: purple;
+}
+.contentContainer{
+  margin-top: 25px;
+  margin-right: 25px;
+  box-shadow: 1px 1px 3px rgba(1, 15, 35, 0.3);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor: grabbing;
+}
+.roboContainer{
+  align-self: flex-end;
+  margin-right: 45px;
+}
+img{
+  width: 180px;
+  height: 180px;
+  border-radius: 25px;
+  opacity: 0.3;
+  transition: all 2s;
+}
+img:hover{
+  opacity: 0.9;
+  transform: translate(-50px, 0px);
+}
+.contentText{
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+}
